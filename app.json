@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Receipt Scanner",
+    "slug": "receipt-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "receipt-scanner",
+    "splash": {
+      "backgroundColor": "#F2F2F7"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Scan receipts with your camera",
+        "NSPhotoLibraryUsageDescription": "Select receipt photos from your library"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F2F2F7"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
